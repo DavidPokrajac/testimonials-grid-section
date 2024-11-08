@@ -14,5 +14,9 @@ article[data-appearance="article-dark"] {
 }
 
 article img[data-frame="img-primary"] {
-    border-color: var(--clr-primary-100);
+    border-color: rgba(236, 242, 248, 0.4);
+}
+
+article img[data-frame="img-dark"] {
+    border-color: var(--clr-primary-600);
 }

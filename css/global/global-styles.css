@@ -1,9 +1,13 @@
 body {
     background-color: var(--clr-neutral-100);
     font-family: var(--ff-base);
-    /* display: grid; */
     font-size: var(--fs-normal);
     font-weight: var(--fw-normal);
+}
+
+h4 {
+    font-weight: var(--fw-normal);
+    font-size: 0.938rem;
 }
 
 .main-wrapper article {
@@ -14,10 +18,24 @@ body {
 article img {
     border: 2px solid;
     border-color: transparent;
+    width: 40px;
+    aspect-ratio: 1 / 1;
+}
+
+[data-appearance="article-primary"] {
+    position: relative;
+    background-image: url("../../images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-size: 104px 102px;
+    background-position: right 6rem top;
 }
 
 @media (max-width: 500px) {
     body {
-        padding: 2em 0;
+        padding: 5em 1.5em;
+    }
+
+    [data-appearance="article-primary"] {
+        background-position: right 1rem top;
     }
 }
