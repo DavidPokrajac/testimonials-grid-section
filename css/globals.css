@@ -64,6 +64,10 @@
     .main-wrapper article:nth-child(4) {
         grid-row: 7 / 10;
     }
+
+    .box-shadow {
+        box-shadow: none;
+    }
 }
 
 @media (max-width: 768px) {
