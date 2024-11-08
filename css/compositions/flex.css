@@ -1,0 +1,8 @@
+.flex-flow {
+    display: flex;
+    align-items: center;
+}
+
+.flex-flow > * + * {
+    margin-left: 2em;
+}

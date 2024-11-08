@@ -1,0 +1,23 @@
+body {
+    background-color: var(--clr-neutral-100);
+    font-family: var(--ff-base);
+    /* display: grid; */
+    font-size: var(--fs-normal);
+    font-weight: var(--fw-normal);
+}
+
+.main-wrapper article {
+    background-color: var(--clr-primary-100);
+    color: var(--clr-primary-400);
+}
+
+article img {
+    border: 2px solid;
+    border-color: transparent;
+}
+
+@media (max-width: 500px) {
+    body {
+        padding: 2em 0;
+    }
+}

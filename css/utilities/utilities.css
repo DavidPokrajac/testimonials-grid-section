@@ -1,0 +1,37 @@
+.border-radius-sm {
+    border-radius: 0.5rem;
+}
+
+.padding-medium {
+    padding: 2em;
+}
+
+.wrapper-width {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.text-highlight {
+    font-size: 1.75em;
+    font-weight: var(--fw-bold);
+}
+
+.border-radius-xl {
+    border-radius: 100%;
+}
+
+.text-lead {
+    line-height: 1.2;
+}
+
+.text-primary {
+    color: var(--clr-neutral-100);
+}
+
+.text-opacity-md {
+    opacity: 0.5;
+}
+
+.text-opacity-lg {
+    opacity: 0.7;
+}

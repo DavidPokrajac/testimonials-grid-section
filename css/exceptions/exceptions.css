@@ -1,0 +1,18 @@
+article[data-appearance="article-primary"] {
+    background-color: var(--clr-primary-600);
+    color: var(--clr-primary-100);
+}
+
+article[data-appearance="article-gray"] {
+    background-color: var(--clr-primary-400);
+    color: var(--clr-neutral-100);
+}
+
+article[data-appearance="article-dark"] {
+    background-color: var(--clr-primary-900);
+    color: var(--clr-neutral-100);
+}
+
+article img[data-frame="img-primary"] {
+    border-color: var(--clr-primary-100);
+}
